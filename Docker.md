@@ -26,3 +26,9 @@ enter username
 # Command to pull image from docker hub
 
 - `sudo docker pull <dockerid>/<repositoryname>:<tag_name>`
+
+# Step to remove sudo requirement
+- Run `sudo groupadd docker`.
+- Run `sudo usermod -aG docker $USER`.
+- Run `newgrp docker`. for changes to take effect
+- Run `docker run hello-world` to test changes.
