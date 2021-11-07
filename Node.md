@@ -1,3 +1,13 @@
+## install node
+
+- `sudo apt install nodejs`
+
+## Upgrade node version
+
+- `sudo npm i -g n`
+- `sudo n stable/latest/<version.number>`
+
+
 ## Command to initialize package.json
 - `npm init`
 
