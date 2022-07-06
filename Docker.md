@@ -8,10 +8,13 @@
 
 - `sudo docker build -t <image_name>:<tag_name> --build-arg <arg_name>=<arg_value> .`
 
-
 # Command to run docker image
 
 - `sudo docker run --name <container_name> -p 80:80 <image_name>:<tag_name>`
+
+# Command to list docker images
+
+- `sudo docker images`
 
 # Command to push image to docker hub
 
