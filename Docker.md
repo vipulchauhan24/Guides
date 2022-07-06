@@ -14,7 +14,11 @@
 
 # Command to list docker images
 
-- `sudo docker images`
+- `sudo docker image ls -a`
+
+# Command to list docker containers
+
+- `sudo docker container ls -a`
 
 # Command to push image to docker hub
 
